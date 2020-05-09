@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form id="verifyForm">
+        <div class="form-label-group">
+            <label for="verifyEmail">Email Address</label>
+            <input type="email" id="emailInputVerify" class="form-control" required>
+
+            <label for="verifyCode">Verification Code</label>
+            <input type="text" id="codeInputVerify" class="form-control" pattern=".*" required>
+
+            <input type="submit" value="Verify">
+        </div>
+    </form>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/aws-cognito-sdk.min.js"></script>        
+    <script src="js/amazon-cognito-identity.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+</body>
+</html>

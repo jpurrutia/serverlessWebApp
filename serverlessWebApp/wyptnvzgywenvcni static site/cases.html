@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+
+    <p>
+        You are registered, verified, and signed in. Congrats! &#x1f44f; 
+    </p>
+    <p>
+        Here's where the case study descriptions go with links to the case study files.
+    </p>
+    <p>
+        <a href="http://wyptnvzgywenvcni-files.s3-website-us-east-1.amazonaws.com/cases/a9bzqu7sPSsvBxy7vpTBiFYE/tests.zip">Get case study file</a>
+    </p>
+    <p>
+        Upload completed case study .zip file
+        <div>
+            <form id="uploadform" method="POST" enctype="multipart/form-data" >
+                <input id="file" name="file" type="file"/> 
+                <button id="upload" type="submit">Upload</button>
+            </form>
+        </div>
+    </p>
+
+    <div class="form-label-group">
+        <a id="signOut" href="#">Sign out</a>
+    </div>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/aws-cognito-sdk.min.js"></script>
+    <script src="js/amazon-cognito-identity.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+    <script src="js/cases.js"></script>
+</body>
+</html>

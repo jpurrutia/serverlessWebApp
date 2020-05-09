@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form id="registrationForm">
+        <div class="form-label-group">
+            <label for="inputEmail">Email Address</label>
+            <input type="email" id="emailInputRegister" class="form-control" required>
+
+            <label for="inputPassword">Password</label>
+            <input type="password" id="passwordInputRegister" class="form-control" required>
+
+            <label for="inputConfirmPassword">Confirm Password</label>
+            <input type="password" id="password2InputRegister" class="form-control" required>
+
+            <input type="submit" value="Register">
+        </div>
+    </form>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/aws-cognito-sdk.min.js"></script>
+    <script src="js/amazon-cognito-identity.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+</body>
+</html>
